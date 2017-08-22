@@ -1,0 +1,179 @@
+body {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url(../img/bg_1.jpg);
+	color: white;
+}
+.heading {
+	background: gray;
+	background-image: -webkit-linear-gradient(black, gray);
+	background-image: -moz-linear-gradient(black, gray);
+	background-image: -o-linear-gradient(black, gray);
+	min-height: 170px;
+}
+
+.logocontainer {
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.logo_text, .logo_img {
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
+	text-transform: uppercase;
+	font-family: arial-black;
+	color: white;
+}
+
+.logo_img {
+	max-width: 150px;
+	padding-right: 20px;
+}
+
+.navigations {
+	padding-right: 10px;
+	list-style-type: none;
+}
+.navigations li a {
+	color: white;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 15px;
+}
+.navigations li a:hover {
+	background: black;
+	background-image: -webkit-linear-gradient(gray, black);
+	background-image: -moz-linear-gradient(gray, black);
+	background-image: -o-linear-gradient(gray, black);
+	border: 1px solid gray;
+}
+.nav-tabs {
+	border-bottom: none;
+	background: gray;
+	background-image: -webkit-linear-gradient(black, gray);
+	background-image: -moz-linear-gradient(black, gray);
+	background-image: -o-linear-gradient(black, gray);
+}
+.active {
+	background-color: gray;
+}
+.inner {
+	margin-top: 50px;
+	height: 200px;
+}
+.border {
+	border: 1px solid white;
+}
+.textone {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	text-transform: capitalize;
+}
+
+.texttwo {
+	text-align: justify;
+	margin: 5px;
+}
+.boxtexts {
+	text-align: center;
+	text-transform: capitalize;
+}
+.boxtextbody {
+	text-align: left;
+	font-size: 14px;
+}
+.btn-1 {
+	border-radius: 50px;
+	width: 200px;
+	margin-bottom: 2px;
+}
+.footertext {
+	text-transform: capitalize;
+	background-color: gray;
+	border: 1px solid white;
+	margin-top: 20px;
+	color: white;
+}
+.float {
+	float: right;
+	margin-right: 5px;
+}
+.float2 {
+	margin-left: 5px;
+}
+.dropdwnele {
+	display: none;
+	list-style-type: none;
+	padding-left: 1px;
+	min-width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: gray;
+	z-index: 1;
+}
+.navitem:hover .dropdwnele {
+	display: inline-block;
+}
+#navkids a {
+	color: black;
+	padding: 10px;
+	display: block;
+}
+
+@media (min-width: 1200px) {
+	.navbar-nav {
+		float: right;
+	}
+	.dropdwnele {
+		position: absolute;
+	}
+}
+.navbar-inverse {
+	background:gray;
+	background-image: -webkit-linear-gradient(black, gray);
+	background-image: -moz-linear-gradient(black, gray);
+	background-image: -o-linear-gradient(black, gray);
+}
+}
+.btn-default {
+	border-radius: 50px;
+	width: 200px;
+}
+.login-btn {
+	list-style-type: none;
+	background-color: white;
+	width: 100px;
+	border: 2px solid gray;
+	border-radius: 50px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.log li a {
+	color: black;
+}
+.log li a:hover {
+	text-decoration: none;
+	background-color: gray;
+	display: block;
+}
+.log {
+	width: 100px;
+}
+.log_form {
+	margin-top: 70px;
+	background-color: gray;
+	padding: 10px;
+}
+.go {
+	text-transform: uppercase;
+	text-align: center;
+}
+.button-log {
+	border-radius: 50px;
+	width: 120px;
+}
