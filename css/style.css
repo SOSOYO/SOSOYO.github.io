@@ -2,8 +2,7 @@ body {
 	width: 90%;
 	margin: auto;
 	margin-top: 10px;
-	background-image:url(../img/bg_1.jpg);
-	color: white;
+	color: black;
 }
 .heading {
 	background: gray;
@@ -66,7 +65,7 @@ body {
 	height: 200px;
 }
 .border {
-	border: 1px solid white;
+	border: 1px solid black;
 }
 .textone {
 	text-align: center;
