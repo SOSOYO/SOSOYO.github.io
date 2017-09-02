@@ -66,6 +66,11 @@ body {
 	margin-top: 50px;
 	height: 200px;
 }
+.welcomenote {
+	margin-top: 50px;
+	height: 300px;
+	overflow: hidden;
+}
 .slide {
 	margin-top: 50px;
 }
@@ -182,4 +187,65 @@ body {
 .button-log {
 	border-radius: 50px;
 	width: 120px;
+}
+.studborder {
+	border: 1px solid white;
+}
+.stud1 {
+	
+}
+.stud2 {
+
+}
+.studh {
+	text-align: center;
+	text-transform: uppercase;
+}
+.studb {
+	text-align: justify;
+	text-transform: capitalize;
+	margin: 10px;
+}
+.studbe {
+	margin-top: 50px;
+}
+.height {
+}
+.admtext {
+	text-transform: capitalize;
+	text-align: justify;
+}
+.adm {
+	margin-left: 10px;
+}
+.news {
+	margin-top: 50px;
+}
+.l {
+	margin-left: 10px;
+}
+.r {
+	margin-right: 10px;
+}
+@media (min-width: 768px) {
+	.stud2 {
+		float: right;
+		margin-right: 10px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	.stud1 {
+		float: left;
+		margin-left: 10px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+}
+@media (min-width: 200px) {
+	.stud2 {
+		text-align: center;
+	}
+	.stud1 {
+		text-align: center;
+	}
 }
