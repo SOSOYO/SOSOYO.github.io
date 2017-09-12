@@ -99,9 +99,8 @@ body {
 .btn-1 {
 	border-radius: 50px;
 	width: 150px;
-	margin-bottom: 2px;
 	position: relative;
-	top: 50px;
+	top: 100px;
 }
 .footertext {
 	text-transform: capitalize;
