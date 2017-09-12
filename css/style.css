@@ -5,6 +5,7 @@ body {
 	color: white;
 	background-color: black;
 	border: 2px solid white;
+	background-image: url(../img/2.jpg);
 }
 .heading {
 	background: gray;
@@ -251,4 +252,13 @@ body {
 }
 .well {
 	background-color: black;
+}
+.bordera {
+	border: 5px solid gray;
+}
+.borderb {
+	border: 5px solid gray;
+}
+.borderc {
+	border: 5px solid gray;
 }
