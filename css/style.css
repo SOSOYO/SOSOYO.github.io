@@ -255,7 +255,7 @@ body {
 }
 .loimg {
 	background-image: url(../img/1.jpg);
-	
+	opacity: 0.6;
 }
 .bordera {
 	border: 5px solid gray;
