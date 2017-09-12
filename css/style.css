@@ -70,7 +70,7 @@ body {
 .welcomenote {
 	margin-top: 50px;
 	height: 300px;
-	overflow: hidden;
+	overflow: scroll;
 }
 .slide {
 	margin-top: 50px;
@@ -261,4 +261,8 @@ body {
 }
 .borderc {
 	border: 5px solid gray;
+}
+.loimg {
+	background-image: url(../img/1.jpg);
+	opacity: 0.6;
 }
