@@ -7,6 +7,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script language="javascript" type="text/javascript">
+		function validateForm() {
+			if( document.myForm.userid.value == "moyosore"){
+				return true;
+			}else{
+				alert("wrong username and password combination");
+				document.myForm.userid.focus();
+				return false;
+			}
+			if (document.myForm.pswd.value == ""){
+				return true;
+			}else{
+				alert("blah");
+				document.myForm.pswd.focus();
+				return false;
+			}
+		}
+	</script>
 	  
 </head>
 <body>
@@ -77,10 +95,10 @@
 		<div class="col-lg-4 col-lg-offset-4">
 				<form name="myForm" action="./go.html" onsubmit="return validateForm()" method="post" class="log_form">
 				<div class="form-group">
-					<input class="form-control" placeholder="Username" type="text" id="inputusername" name="userid" required>
+					<input class="form-control" placeholder="Username" type="text" id="inputusername" name="userid" requird>
 				</div>
 				<div class="form-group">
-					<input class="form-control" placeholder="Password" type="Password" id="inputpassword" name="pswd" required>
+					<input class="form-control" placeholder="Password" type="Password" id="inputpassword" name="pswd" require>
 				</div>
 				<button type="submit" class="button-log">login</button>
 				</form>
