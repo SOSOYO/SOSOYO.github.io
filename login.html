@@ -9,19 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<script language="javascript" type="text/javascript">
 		function validateForm() {
-			if( document.myForm.userid.value == "moyosore"){
+			if( document.myForm.userid.value == "moyosore" && document.myForm.pswd.value == "moyo"){
 				return true;
 			}else{
-				alert("wrong username and password combination");
-				document.myForm.userid.focus();
+				alert("YOU DON'T HAVE AN ACCOUNT YET");
 				return false;
-			}
-			if (document.myForm.pswd.value == ""){
-				return true;
-			}else{
-				alert("blah");
-				document.myForm.pswd.focus();
-				return false;
+			}if (document.myForm.userid.value == "" && document.myForm.pswd.value == ""){
+				alert("NO USERNAME AND PASSWORD")
 			}
 		}
 	</script>
@@ -95,10 +89,10 @@
 		<div class="col-lg-4 col-lg-offset-4">
 				<form name="myForm" action="./go.html" onsubmit="return validateForm()" method="post" class="log_form">
 				<div class="form-group">
-					<input class="form-control" placeholder="Username" type="text" id="inputusername" name="userid" requird>
+					<input class="form-control" placeholder="Username" type="text" id="inputusername" name="userid" required>
 				</div>
 				<div class="form-group">
-					<input class="form-control" placeholder="Password" type="Password" id="inputpassword" name="pswd" require>
+					<input class="form-control" placeholder="Password" type="Password" id="inputpassword" name="pswd" required>
 				</div>
 				<button type="submit" class="button-log">login</button>
 				</form>
