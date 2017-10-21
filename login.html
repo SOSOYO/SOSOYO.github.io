@@ -11,7 +11,9 @@
 		function validateForm() {
 			if( document.myForm.userid.value == "moyosore" && document.myForm.pswd.value == "moyo"){
 				return true;
-			}else{
+			}else if(document.myForm.userid.value == "moyo" && document.myForm.pswd.value == "moyosore")
+				return true;
+			else{
 				alert("you don't have an account yet!!!");
 				return false;
 			}if (document.myForm.userid.value == "" && document.myForm.pswd.value == ""){
